@@ -1,0 +1,12 @@
+[
+  {"id":"basic_sum","question":"Given 2, 4, 6, 8, what is the mean? Reply with ONLY JSON.","expected":"6"},
+  {"id":"max_value","question":"Given values [3, 17, 5, 9], return the maximum as JSON.","expected":"17"},
+  {"id":"missing_values","question":"Given [1, null, 3, null, 5], how many missing values are there? Return JSON.","expected":"2"},
+  {"id":"grouped_mean","question":"For rows A:10, A:20, B:5, B:15, calculate the mean for each group. Return JSON.","expected":"A=15,B=10"},
+  {"id":"percentage","question":"A value rises from 80 to 100. What is the percentage increase? Return JSON.","expected":"25"},
+  {"id":"sort","question":"Sort [7,2,9,1] ascending and return the list as JSON.","expected":"[1,2,7,9]"},
+  {"id":"count","question":"How many even numbers are in [1,2,4,7,10,11]? Return JSON.","expected":"3"},
+  {"id":"median","question":"Find the median of [1,3,5,7,9]. Return JSON.","expected":"5"},
+  {"id":"ratio","question":"What is the ratio 30:45 simplified? Return JSON.","expected":"2:3"},
+  {"id":"difference","question":"What is the absolute difference between 125 and 87? Return JSON.","expected":"38"}
+]
